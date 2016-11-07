@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EditReserveViewController.h"
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,
+                                             UICollectionViewDelegate,UICollectionViewDataSource,EditReserveViewControllerProtocol>
 
-@interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIButton *purchaseButton;
+@property (strong, nonatomic) IBOutlet UITableView *masterTableView;
+@property (strong, nonatomic) IBOutlet UITableView *purchaseTableView;
+@property (strong, nonatomic) IBOutlet UICollectionView *detailCollectionView;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *masterTableViewWidthConstraint;
 
 @end
 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TypeProductSectionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rti-hg-fbf">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1B-gn-VVh">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E1B-gn-VVh" firstAttribute="top" secondItem="rti-hg-fbf" secondAttribute="top" constant="8" id="H5x-Kk-mlW"/>
+                            <constraint firstAttribute="trailing" secondItem="E1B-gn-VVh" secondAttribute="trailing" constant="8" id="KiN-tP-Id7"/>
+                            <constraint firstItem="E1B-gn-VVh" firstAttribute="leading" secondItem="rti-hg-fbf" secondAttribute="leading" constant="8" id="Rc5-80-Vgf"/>
+                            <constraint firstAttribute="bottom" secondItem="E1B-gn-VVh" secondAttribute="bottom" constant="8" id="sg3-ma-94n"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rti-hg-fbf" secondAttribute="bottom" id="4FS-6u-vlK"/>
+                    <constraint firstAttribute="trailing" secondItem="rti-hg-fbf" secondAttribute="trailing" id="Njf-Cb-aDh"/>
+                    <constraint firstItem="rti-hg-fbf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZwG-56-QIi"/>
+                    <constraint firstItem="rti-hg-fbf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="igZ-9M-51T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="E1B-gn-VVh" id="GaV-Xa-L7s"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

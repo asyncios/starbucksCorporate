@@ -1,0 +1,32 @@
+{
+  "itemFeatureSection": {
+    "1": {
+      "itemFeatureSectionId": "1",
+      "itemFeatureSectionName": "Size",
+      "itemFeatureSectionDefaultId": "0",
+      "itemFeatureIdArray": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "2": {
+      "itemFeatureSectionId": "2",
+      "itemFeatureSectionName": "Temperatura",
+      "itemFeatureSectionDefaultId": "0",
+      "itemFeatureIdArray": [
+        "4",
+        "5"
+      ]
+    },
+    "3": {
+      "itemFeatureSectionId": "3",
+      "itemFeatureSectionName": "Adicional",
+      "itemFeatureSectionDefaultId": "0",
+      "itemFeatureIdArray": [
+        "6",
+        "7"
+      ]
+    }
+  }
+}

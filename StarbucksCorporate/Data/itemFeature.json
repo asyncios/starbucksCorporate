@@ -1,0 +1,39 @@
+{
+  "itemFeature": {
+    "1": {
+      "itemFeatureId": "1",
+      "itemFeatureName": "Alto",
+      "itemFeatureAdicionalPrice": "0"
+    },
+    "2": {
+      "itemFeatureId": "2",
+      "itemFeatureName": "Grande",
+      "itemFeatureAdicionalPrice": "2"
+    },
+    "3": {
+      "itemFeatureId": "3",
+      "itemFeatureName": "Venti",
+      "itemFeatureAdicionalPrice": "5"
+    },
+    "4": {
+      "itemFeatureId": "4",
+      "itemFeatureName": "Temperado",
+      "itemFeatureAdicionalPrice": "0"
+    },
+    "5": {
+      "itemFeatureId": "5",
+      "itemFeatureName": "Caliente",
+      "itemFeatureAdicionalPrice": "0"
+    },
+    "6": {
+      "itemFeatureId": "6",
+      "itemFeatureName": "Leche Adicional",
+      "itemFeatureAdicionalPrice": "6"
+    },
+    "7": {
+      "itemFeatureId": "7",
+      "itemFeatureName": "Chocochips",
+      "itemFeatureAdicionalPrice": "2"
+    }
+  }
+}

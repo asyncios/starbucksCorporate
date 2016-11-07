@@ -1,0 +1,12 @@
+{
+  "typeItem": {
+    "1": {
+      "typeItemId": "1",
+      "typeItemName": "Drinks"
+    },
+    "2": {
+      "typeItemId": "2",
+      "typeItemName": "Food"
+    }
+  }
+}
